@@ -1,0 +1,31 @@
+{
+  "name": "@mugo/stylelint-config",
+  "version": "2.0.1",
+  "description": "A shareable set of Stylelint rules to maintain CSS Standards across projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugoagency/stylelint-config.git"
+  },
+  "keywords": [
+    "Stylelint",
+    "CSS",
+    "SCSS",
+    "PostCSS",
+    "PCSS"
+  ],
+  "author": "Sam Wells",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint": "^13.7.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mugoagency/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/mugoagency/stylelint-config#readme"
+}
