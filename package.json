@@ -1,6 +1,6 @@
 {
   "name": "@mugo-agency/stylelint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A shareable set of Stylelint rules to maintain CSS Standards across projects.",
   "main": "index.js",
   "scripts": {
