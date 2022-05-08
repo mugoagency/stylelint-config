@@ -1,4 +1,4 @@
-![Node.js Package](https://github.com/mugo-agency/stylelint-config/workflows/Node.js%20Package/badge.svg)
+[![Node.js Package](https://github.com/mugoagency/stylelint-config/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/mugoagency/stylelint-config/actions/workflows/npm-publish.yml)
 # stylelint-config
 
 Mugo's shareable Stylelint config for use across projects.
