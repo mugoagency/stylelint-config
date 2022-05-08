@@ -1,28 +1,28 @@
-![Node.js Package](https://github.com/mugo/stylelint-config/workflows/Node.js%20Package/badge.svg)
+![Node.js Package](https://github.com/mugo-agency/stylelint-config/workflows/Node.js%20Package/badge.svg)
 # stylelint-config
 
 Mugo's shareable Stylelint config for use across projects.
 
 ## Installation 
 
-Install [stylelint](https://stylelint.io/) and `@mugo/stylelint-config`:
+Install [stylelint](https://stylelint.io/) and `@mugo-agency/stylelint-config`:
 
 **With Yarn**
 ```
-yarn add --dev stylelint @mugo/stylelint-config
+yarn add --dev stylelint @mugo-agency/stylelint-config
 ```
 
 **With npm**
 ```
-npm install stylelint @mugo/stylelint-config --save-dev
+npm install stylelint @mugo-agency/stylelint-config --save-dev
 ```
 
 
 ## Usage
-Mugo's stylelint rules come bundled in `@mugo/stylelint-config`. To enable these rules, add a `stylelint` property in your `package.json`. See the [stylelint configuration docs](https://stylelint.io/user-guide/configuration/) for more details.
+Mugo's stylelint rules come bundled in `@mugo-agency/stylelint-config`. To enable these rules, add a `stylelint` property in your `package.json`. See the [stylelint configuration docs](https://stylelint.io/user-guide/configuration/) for more details.
 ```
 "stylelint": {
-  "extends": ["@mugo/stylelint-config"]
+  "extends": ["@mugo-agency/stylelint-config"]
 }
 ```
 
