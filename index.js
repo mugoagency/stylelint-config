@@ -1,12 +1,13 @@
 module.exports = {
+  ignoreFiles: ["assets/**/*.css"],
   overrides: [
     {
       files: ["**/*.scss", "**/*.pcss"],
     },
   ],
-  ignoreFiles: ["assets/**/*.css"],
   plugins: ["stylelint-order", "stylelint-config-rational-order/plugin"],
   rules: {
+    "at-rule-empty-line-before": ["always", {ignore: ["first-nested"] }],
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always",
     "block-no-empty": true,
@@ -54,6 +55,7 @@ module.exports = {
         message: "Please use BEM naming convention for your selectors",
       },
     ],
+    "selector-max-empty-lines": 0,
     "selector-no-qualifying-type": true,
     "shorthand-property-no-redundant-values": true,
     "unit-no-unknown": true,
