@@ -22,6 +22,7 @@ module.exports = {
     "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": "never",
+    "no-eol-whitespace": true,
     "function-name-case": "lower",
     indentation: 2,
     "length-zero-no-unit": true,
