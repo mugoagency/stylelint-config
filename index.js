@@ -31,7 +31,7 @@ module.exports = {
       "max-width",
       {
         message:
-          "Use min-width for a mobile-first approach (media-feature-name-blacklist)",
+          "Use min-width for a 'mobile-first' approach.",
       },
     ],
     "no-duplicate-at-import-rules": true,
@@ -52,7 +52,7 @@ module.exports = {
     "selector-class-pattern": [
       "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
       {
-        message: "Please use BEM naming convention for your selectors",
+        message: "Use BEM naming convention for your selectors.",
       },
     ],
     "selector-max-empty-lines": 0,
@@ -60,7 +60,7 @@ module.exports = {
     "selector-pseudo-class-disallowed-list": [
       ["not"],
       {
-        message: "Avoid using negative conditionals like :not(). It can make the selector harder to understand.",
+        message: "Avoid using 'negative conditionals' like :not(). It can make the selector much harder to understand.",
       }
     ],
     "shorthand-property-no-redundant-values": true,
