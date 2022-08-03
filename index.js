@@ -22,7 +22,6 @@ module.exports = {
     "declaration-colon-space-after": "always",
     "declaration-colon-space-before": "never",
     "declaration-empty-line-before": "never",
-    "no-eol-whitespace": true,
     "function-name-case": "lower",
     indentation: 2,
     "length-zero-no-unit": true,
@@ -58,6 +57,12 @@ module.exports = {
     ],
     "selector-max-empty-lines": 0,
     "selector-no-qualifying-type": true,
+    "selector-pseudo-class-disallowed-list": [
+      ["not"],
+      {
+        message: "Avoid using :not(). It can make the selector difficult to understand what it is targeting.",
+      }
+    ],
     "shorthand-property-no-redundant-values": true,
     "unit-no-unknown": true,
     "value-no-vendor-prefix": true,
