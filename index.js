@@ -60,7 +60,7 @@ module.exports = {
     "selector-pseudo-class-disallowed-list": [
       ["not"],
       {
-        message: "Avoid using :not(). It can make the selector difficult to understand what it is targeting.",
+        message: "Avoid using negative conditionals like :not(). It can make the selector harder to understand.",
       }
     ],
     "shorthand-property-no-redundant-values": true,
