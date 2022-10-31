@@ -7,7 +7,7 @@ module.exports = {
   ],
   plugins: ["stylelint-order", "stylelint-config-rational-order/plugin"],
   rules: {
-    "at-rule-empty-line-before": ["always", {ignore: ["first-nested"] }],
+    "at-rule-empty-line-before": ["always", { ignore: ["first-nested"] }],
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always",
     "block-no-empty": true,
@@ -48,7 +48,10 @@ module.exports = {
       },
     ],
     "property-no-unknown": true,
-    "rule-empty-line-before": "always-multi-line",
+    "rule-empty-line-before": [
+      "always-multi-line",
+      { except: ["after-single-line-comment"] }
+    ],
     "selector-class-pattern": [
       "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
       {
